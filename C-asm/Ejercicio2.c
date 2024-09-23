@@ -2,7 +2,8 @@
 
 int main(void){
 
-    int a = 0;
+    int a = 0;    int a = 0;
+
     asm("movl %[valor],%[variable]\n"
         : [variable] "=g"(a)    
         : [valor] "g"(7)
