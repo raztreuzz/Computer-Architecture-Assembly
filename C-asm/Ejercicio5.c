@@ -3,6 +3,7 @@
 int main(void)
 {
 
+    int a = 0;  // Declaración de variables en C
     int b = 0;
     int c = 0;
     int d = 0;
