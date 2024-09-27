@@ -41,9 +41,9 @@ int main() {
                     "movl %2, %%ebx;" // Mover num2 a ebx
                     "subl %%ebx, %%eax;" // Restar ebx de eax
                     "movl %%eax, %0;" // Mover el resultado a la variable resultado
-                    : "=r" (resultado)
-                    : "r" (num1), "r" (num2)
-                    : "%eax", "%ebx"
+                    : "=r" (resultado) //
+                    : "r" (num1), "r" (num2) //
+                    : "%eax", "%ebx"  //
                 );
                 printf("Resultado de la resta: %d\n", resultado);
                 break;
